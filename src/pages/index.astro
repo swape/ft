@@ -1,0 +1,13 @@
+---
+import Layout from '../layouts/Layout.astro'
+import Home from '../SveltePages/Home.svelte'
+
+
+
+---
+
+<Layout title="FT">
+  <section class="sm:ml-20">
+    <Home client:only="svelte" />
+  </section>
+</Layout>
